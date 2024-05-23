@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.header{
+    height: 100px;
+    background-color: grey;
+}
+.header--fixed {
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+.section-1{
+    height: 700px;
+    background-color:aquamarine;
+}
+.section-2{
+    height: 700px;
+    background-color: rgb(76, 76, 253);
+}
+.section-3{
+    height: 700px;
+    background-color: rgb(96, 70, 121);
+}
+.footer{
+    height: 100px;
+    background-color: cornflowerblue;
+}
