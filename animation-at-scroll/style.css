@@ -3,26 +3,26 @@
 *::after {
     box-sizing: border-box;
 }
-body {
+/*body {
     margin: 0;
     padding: 30px;
     color: #000000;
     line-height: 32px;
     font-size: 18px;
     font-family: Arial, sans-serif;
-}
-.header{
+}*/
+/*.header{
     min-height: 100vh;
     margin: 0 auto;
     padding-bottom: 30px;
     transition: transform 0.3s ease, opacity 0.3s ease;
     transform: translateX(40px);
     opacity: 0;
-}
-.list-item--active {
+}*/
+/*.list-item--active {
     transform: translateX(0px);
     opacity: 1;
 }
 .box-1{
     font-weight: bold;
-}
+}*/
