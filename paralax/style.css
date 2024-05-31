@@ -1,0 +1,82 @@
+* {
+    box-sizing: border-box;
+}
+
+html,
+body {
+    height: 100%;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+    background-color: lightgrey;
+}
+
+.wrap {
+    height: 100vh;
+    overflow-x: hidden;
+    perspective: 1px;
+    perspective-origin: top;
+    transform-style: preserve-3d;
+}
+
+.header {
+    width: 1110px;
+    margin: 0 auto;
+    height: 100vh;
+    position: relative;
+    transform-style: preserve-3d;
+}
+
+.header__img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-image: url("img/fon.jpg");
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center center;
+}
+
+.header__box {
+    position: absolute;
+    width: 64%;
+    padding: 0 110px;
+    z-index: 2;
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%);
+    color: #ffffff;
+}
+
+.header__title {
+    font-weight: bold;
+    font-size: 64px;
+    line-height: 70px;
+    margin-top: 0;
+    margin-bottom: 28px;
+    text-shadow: 2px 2px #2c2c2c;
+}
+
+.header__text {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 25px;
+    text-shadow: 2px 2px #2c2c2c;
+}
+
+main {
+    background-color: lavender;
+    transform: translateZ(0);
+    width: 1110px;
+    height: 1200px;
+    margin: 0 auto;
+}
+
+.button{
+    z-index: 1;
+}
