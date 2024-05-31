@@ -12,7 +12,7 @@
     position: fixed;
     top: 0;
     left: 0;
-    animation: 2s show ease; 
+    animation: 2s show ease;
 }
 .section-1{
     height: 700px;
@@ -30,6 +30,30 @@
     height: 100px;
     background-color: cornflowerblue;
 }
+.btn{    
+    width: 50px;
+    height: 50px;
+}
+
+.btn svg{
+    width: 50px;
+    height: 50px;
+    color: white;
+}
+
+.btn-up{
+    position: fixed;
+    bottom: 100px;
+    right: 50px;
+    animation: 2s show ease;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
 @keyframes show {
     from { opacity: 0; }
     to { opacity: 1; }
