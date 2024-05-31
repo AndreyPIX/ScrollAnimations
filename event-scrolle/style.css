@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
 }
+
 .header{
     height: 100px;
     background-color: grey;
@@ -11,6 +12,7 @@
     position: fixed;
     top: 0;
     left: 0;
+    animation: 2s show ease; 
 }
 .section-1{
     height: 700px;
@@ -27,4 +29,8 @@
 .footer{
     height: 100px;
     background-color: cornflowerblue;
+}
+@keyframes show {
+    from { opacity: 0; }
+    to { opacity: 1; }
 }

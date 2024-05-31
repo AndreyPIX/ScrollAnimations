@@ -4,13 +4,12 @@
 }
 .progressbar {
     position: fixed;
-    top: 0;
+    top: 0; 
     left: 0;
     height: 5px;
     width: 100%;
-    background-color: red;
+    background-color: red; 
     transform-origin: left center;
-    transform: scaleX(0);
+    transform: scaleX(0); 
     transition: transform 0.2s ease;
-    
 }
